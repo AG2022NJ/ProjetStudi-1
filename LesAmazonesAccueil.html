@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Les Amazones</title>
 
-    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="StyleCSS.css">
 </head>
 <body>
 
     <header>
         <nav>
-                <ul>
-                <li id="logo"><a href="#">Les Amazones</a></li>
+            <ul>
+                <li id="logo"><a href="#">
+                    <img src="media/Logo.jpg" alt="">
+                </a></li>
                 <li><a href="#contact">Nous contacter</a></li>
                 <li><a href="#entrainement">Les entraînements</a></li>
                 <li><a href="#Club">Le Club</a></li>
-                </ul>
+            </ul>
         </nav>
         <div id="imagePrincipale">
             <h1>Les Amazones</h1>
@@ -49,7 +51,7 @@
                 <div id="LesAmazones">
                     <div class="imagesLesAmazones">
                         <h4>Le Club</h4>
-                        <a href="#"><img src="media/Logo.jpg" alt="Logo"></a>
+                        <a href="LeClub.html"><img src="media/Logo.jpg" alt="Logo"></a>
                     </div>
                     <div class="imagesLesAmazones">
                         <h4>Entrainement</h4>
@@ -64,22 +66,25 @@
         </section>
 
    <footer>
-        <h2>Contactez-nous</h2>
+        <h2 id="contact">Contactez-nous</h2>
         <form>
             <input placeholder="Nom">
             <input placeholder="E-mail">
-            <input placeholder="Votre message ici...">
+            <textarea placeholder="Votre message ici..."></textarea>
             <button>Envoyer</button>
         </form>
         <div id="deuxiemeTrait"></div>
+
+        <div id="icons">
+            <a href="https://www.facebook.com/LesAmazonesCheer"><i class="fa fa-facebook"></i></a>
+            <a href="https://instagram.com/amazonescheer?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
+        </div>
+
         <div id="copyrightEtIcons"></div>
         <div id="copyright">
             <span>© from Alexandrine Guillot; 2022</span>
         </div>
-        <div id="icons">
-            <a href="http://www.facebook.fr"><i class="fa fa-facebook"></i></a>
-            
-        </div>
+        
    </footer>
 </body>
 </html>

@@ -1,15 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Chelsea+Market&family=Dancing+Script:wght@500&family=Freehand&family=Licorice&family=Moon+Dance&family=Qwitcher+Grypen:wght@700&display=swap');
+@media screen and (max-width: 700px) and (orientation: portrait) {
+  }
 
 
-
-font-family: 'Anton', sans-serif;
-font-family: 'Chelsea Market', cursive;
-font-family: 'Dancing Script', cursive;
-font-family: 'Freehand', cursive;
-font-family: 'Licorice', cursive;
-font-family: 'Moon Dance', cursive;
-font-family: 'Qwitcher Grypen', cursive;
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Dancing Script', cursive;
@@ -58,16 +55,16 @@ header li a {
 }
 #logo {
     background: url(media/Logo.jpg)no-repeat 50% 50%;
-    padding-top: 50px;
+    padding-top: 10px;
     float: left;
-    padding: 20px 1px;
-    }
+    padding: 1px 1px 1px 1px;
+       }
 
 /* **************************IMAGE PRINCIPALE**************** */
 
 #imagePrincipale {
     padding-top: 350px;
-    background: url(media/LesAmazones2020.jpg) no-repeat fixed 50% 50%;
+    background: url(media/Les\ Amazones.jpg) no-repeat fixed 50% 50%;
     background-size: contain;
     height: 1000px;
 }
@@ -118,7 +115,7 @@ h2 {
     border-radius: 20px;
     box-shadow: 5px 5px 5px 5px gray ;
 }
-.imagesLesAmazones img :hover {
+.imagesLesAmazones img:hover {
     opacity: 0.5;
     transform: scale(1.05);
     transition: 0.8s ease-in-out;
@@ -130,6 +127,70 @@ footer {
     padding: 20px 0 10px 0;
     text-align: center;
 }
+footer h2 {
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro', sans-serif ;
+    border-radius: 8px;
+}
+textarea {
+    height: 120px;
+}
+button {
+    font-size: 1.5em;
+    background-color: #FFFAE1;
+}
+button:hover {
+    background-color: #DAA520;
+    color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#deuxiemeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: #FFFAE1;
+    margin: 60px auto;
+}
+#copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: #FFFAE1;
+}
+#icons {
+    width: 50%;
+    text-align:justify;
+
+
+}
+#icons a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: #FFFAE1;
+   
+}
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+}
+
+
 
 
 
