@@ -67,7 +67,7 @@ header li a {
 
 #imagePrincipale {
     padding-top: 350px;
-    background: url(media/LesAmazones.png) no-repeat fixed 50% 50%;
+    background: url(media/LesAmazones2020.jpg) no-repeat fixed 50% 50%;
     background-size: contain;
     height: 1000px;
 }
@@ -95,10 +95,43 @@ h2 {
 #presentation {
     background-color: #FFFAE1;
     padding: 10px 0px 100px 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 180%;
 }
 #texteIntro {
     padding: 0px 20%;  
 }
+#LesAmazones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+    }
+.imagesLesAmazones h4 {
+    font-family: 'Dancing Script', cursive; 
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+.imagesLesAmazones img {
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px gray ;
+}
+.imagesLesAmazones img :hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.8s ease-in-out;
+}
+/* ********************* FOOTER ***************** */
+footer {
+    background-color: #524a3a;
+    color: white;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+
 
 
 
