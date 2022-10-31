@@ -10,6 +10,7 @@ html {
 
 body {
     font-family: 'Dancing Script', cursive;
+    text-align: center;
     padding: 0;
     margin: 0;
 }
@@ -17,7 +18,7 @@ li {
     list-style-type: none;
 }
 h1 {
-    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
     text-align: center;
     padding-top: 0;
     font-size: 3em;
@@ -64,48 +65,20 @@ header li a {
     padding: 18px 16px;
 }
 #logo {
-    background: url(media/Logo.jpg)no-repeat 50% 50%;
+    background-image: url(media/Logo.jpg);
+    background-repeat: no-repeat 50% 50%;
+    background-position: left bottom;
     padding-top: 10px;
-    padding-right: 100px;
-    float: left;
+    
     padding: 1px 1px 1px 1px;
     display: inline-block;
     vertical-align: top;
        }
 
-/* **************************IMAGE PRINCIPALE**************** */
-
-#imagePrincipale {
-    padding-top: 250px;
-    background: url(media/Les\ Amazones.jpg) no-repeat fixed 50% 50%;
-    background-size:auto;
-    height: 100%;
-}
-h1 {
-    font-family: 'Anton', sans-serif;
-    color: black;
-    text-align: left;
-    text-shadow: 1px 3px 1px white;
-    margin-left: 50px;
-}
-#premierTrait {
-    height: 3px;
-    width: 10%;
-    background-color: black;
-    text-align: center;
-    margin-left: 75px;
-    box-shadow: 1px 3px 1px white;
-}
-h2 {
-    text-align: right;
-    margin-right: 50px;
-    font-size:340%;
-    margin-bottom: 0px;
-}
 /* **************Presentation*********** */
 #presentation {
     background-color: #FFFAE1;
-    padding: 50px 0px 0px 100px;
+    padding: 1em;
     font-family: 'Dancing Script', cursive;
     font-size: 180%;
 }
