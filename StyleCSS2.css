@@ -6,7 +6,6 @@
 
 html {
     scroll-behavior: smooth;
-
 }
 
 nav {
@@ -14,12 +13,10 @@ nav {
     width: 100%;
     margin-bottom: 0;
     text-decoration: none;
-
-
 }
 section {
     background-color: #DAA520;
-
+    margin-bottom: 0;
 }
 
 #Titre {
@@ -27,7 +24,6 @@ section {
     text-align: center;
     font-family: 'Anton', sans-serif;
     font-size: 3em;
-
          }
 
 li a {
@@ -45,15 +41,17 @@ li a {
     font-size: 1.2em;
     display: flex;
     justify-content:center;
-
-        }
+}
 
         .imagesLesAmazones {
             margin: 2vw;
+            text-align: center;
+            
         }
         .imagesLesAmazones img {
             border-radius: 5px;
             box-shadow: 1px 1px 1px 1px gray ;
+            margin-bottom: 2em;
         }
         .imagesLesAmazones img:hover {
             opacity: 0.5;
@@ -63,3 +61,55 @@ li a {
 h4 {
     text-align: center;
 }
+/* ********************* FOOTER ***************** */
+
+footer {
+    background-color: #524a3a;
+    color: white;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+footer h2 {
+    text-align: center;
+}
+
+#copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: #FFFAE1;
+}
+#icons {
+    width: 50%;
+    text-align:justify;
+
+
+}
+#icons a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.6em;
+    color: #FFFAE1;
+   
+}
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+}
+#deuxiemeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: #FFFAE1;
+    margin: 60px auto;
+}
+
+
+
+
+
+
+
