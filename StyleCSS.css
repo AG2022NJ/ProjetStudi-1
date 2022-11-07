@@ -3,24 +3,16 @@
 @media screen and (max-width: 700px) and (orientation: portrait) {
   }
 
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: 'Dancing Script', cursive;
-    padding: 0;
-    margin: 0;
-}
 li {
     list-style-type: none;
 }
 h1 {
+
     text-transform: uppercase;
     text-align: center;
     padding-top: 0;
     font-size: 3em;
+    background-size: 50%;
     }
 h2 {
     text-align: center;
@@ -38,29 +30,36 @@ a {
     nav {
     overflow: hidden;
     background-color: black;
-    position: fixed;
     width: 100%;
 }
+    header nav {
+    display: flex;
+    flex-wrap: wrap ;
+}
 
-#Titre
-    {color: #DAA520;
+#Titre {
+    color: #DAA520;
     text-align: center;
     display: inline-block;
     vertical-align: top;
-   
-    }
+     }
+
 header {
     background-color: #DAA520;
     }
-header li {
-    float: right;
+#lien {
+    text-align: left;
     font-size: 1.2em;
     display: inline-block;
-    vertical-align: top;
-}
+       
+    }
+
 header li a {
-    text-decoration: none;
+    text-align: right;
+    font-size: 1.2em;
     display: block;
+    vertical-align: center;
+
     padding: 18px 16px;
 }
 #logo {
@@ -78,8 +77,9 @@ header li a {
 #imagePrincipale {
     padding-top: 250px;
     background: url(media/Les\ Amazones.jpg) no-repeat fixed 50% 50%;
-    background-size:auto;
+    background-size: 30%;
     height: 100%;
+
 }
 h1 {
     font-family: 'Anton', sans-serif;
@@ -87,6 +87,7 @@ h1 {
     text-align: left;
     text-shadow: 1px 3px 1px white;
     margin-left: 50px;
+
 }
 #premierTrait {
     height: 3px;
@@ -103,6 +104,7 @@ h2 {
     margin-bottom: 0px;
 }
 /* **************Presentation*********** */
+
 #presentation {
     background-color: #FFFAE1;
     padding: 50px 0px 0px 100px;
@@ -138,7 +140,9 @@ h2 {
     transform: scale(1.05);
     transition: 0.8s ease-in-out;
 }
+
 /* ********************* FOOTER ***************** */
+
 footer {
     background-color: #524a3a;
     color: white;
@@ -207,7 +211,7 @@ button:hover {
     transform: scale(1.5);
     transition: 0.1s;
 }
-
+*/
 
 
 

@@ -8,177 +8,33 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    font-family: 'Dancing Script', cursive;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
 li {
     list-style-type: none;
 }
 h1 {
-    font-family: 'Anton', sans-serif;
+    color: #DAA520;
     text-align: center;
-    padding-top: 0;
-    font-size: 3em;
-    }
-h2 {
-    text-align: center;
-    padding-top: 30px;
-    font-size: 2em;
-    font-family: 'Dancing Script', cursive;
+    display:inline;
+    vertical-align:middle;
 }
+
 a {
     text-decoration: none;
     color: white;
     font-family: 'Dancing Script', cursive;
     font-size:xx-large;
+    
 }
+
 /* *******************NAVBAR*********************** */
     nav {
     overflow: hidden;
     background-color: black;
-    position: fixed;
     width: 100%;
 }
-
-#Titre
-    {color: #DAA520;
-    text-align: center;
-    display: inline-block;
-    vertical-align: top;
-   
-    }
-header {
-    background-color: #DAA520;
-    }
-header li {
-    float: right;
-    font-size: 1.2em;
-    display: inline-block;
-    vertical-align: top;
-}
-header li a {
-    text-decoration: none;
-    display: block;
-    padding: 18px 16px;
-}
-#logo {
-    background-image: url(media/Logo.jpg);
-    background-repeat: no-repeat 50% 50%;
-    background-position: left bottom;
-    padding-top: 10px;
-    
-    padding: 1px 1px 1px 1px;
-    display: inline-block;
-    vertical-align: top;
-       }
-
-/* **************Presentation*********** */
-#presentation {
-    background-color: #FFFAE1;
-    padding: 1em;
-    font-family: 'Dancing Script', cursive;
-    font-size: 180%;
-}
-#texteIntro {
-    padding: 0px 0%;  
-}
-#LesAmazones {
+    header nav {
     display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    padding: 30px 10%;
-        }
-
-.imagesLesAmazones {
-    margin: 10vw;
-}
-.imagesLesAmazones h4 {
-    font-family: 'Dancing Script', cursive; 
-    text-align: center;
-    font-size: 1.8em;
-    margin: 15px;
-    font-weight: 300;
-}
-.imagesLesAmazones img {
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px 5px gray ;
-}
-.imagesLesAmazones img:hover {
-    opacity: 0.5;
-    transform: scale(1.05);
-    transition: 0.8s ease-in-out;
-}
-/* ********************* FOOTER ***************** */
-footer {
-    background-color: #524a3a;
-    color: white;
-    padding: 20px 0 10px 0;
-    text-align: center;
-}
-footer h2 {
-    text-align: center;
-}
-form {
-    margin: 0 auto;
-    max-width: 900px;
-}
-input, textarea, button {
-    border: none;
-    width: 55%;
-    padding: 15px 10px;
-    margin: 1px 0;
-    font-size: 1.2em;
-    font-family: 'Advent Pro', sans-serif ;
-    border-radius: 8px;
-}
-textarea {
-    height: 120px;
-}
-button {
-    font-size: 1.5em;
-    background-color: #FFFAE1;
-}
-button:hover {
-    background-color: #DAA520;
-    color: #FFFAE1;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-}
-#deuxiemeTrait {
-    height: 1px;
-    width: 75%;
-    background-color: #FFFAE1;
-    margin: 60px auto;
-}
-#copyrightEtIcons {
-    display: flex;
-    margin-bottom: 20px;
-    padding: 0 10%;
-}
-#copyright {
-    width: 50%;
-    text-align: left;
-    color: #FFFAE1;
-}
-#icons {
-    width: 50%;
-    text-align:justify;
-
-
-}
-#icons a {
-    display: inline-block;
-    padding: 0 15px;
-    font-size: 1.3em;
-    color: #FFFAE1;
-   
-}
-#icons a:hover {
-    transform: scale(1.5);
-    transition: 0.1s;
+    flex-wrap: wrap ;
 }
 
 
