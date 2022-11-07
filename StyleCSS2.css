@@ -6,40 +6,60 @@
 
 html {
     scroll-behavior: smooth;
+
 }
 
-li {
-    list-style-type: none;
+nav {
+    background-color: black;
+    width: 100%;
+    margin-bottom: 0;
+    text-decoration: none;
+
+
 }
-h1 {
+section {
+    background-color: #DAA520;
+
+}
+
+#Titre {
     color: #DAA520;
     text-align: center;
-    display:inline;
-    vertical-align:middle;
-}
+    font-family: 'Anton', sans-serif;
+    font-size: 3em;
 
-a {
+         }
+
+li a {
     text-decoration: none;
     color: white;
     font-family: 'Dancing Script', cursive;
     font-size:xx-large;
-    
 }
-
-/* *******************NAVBAR*********************** */
-    nav {
-    overflow: hidden;
-    background-color: black;
-    width: 100%;
+#texteIntro {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5ex 5ex;
 }
-    header nav {
+#LesAmazones {
+    font-size: 1.2em;
     display: flex;
-    flex-wrap: wrap ;
+    justify-content:center;
+
+        }
+
+        .imagesLesAmazones {
+            margin: 2vw;
+        }
+        .imagesLesAmazones img {
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px 1px gray ;
+        }
+        .imagesLesAmazones img:hover {
+            opacity: 0.5;
+            transform: scale(1.05);
+            transition: 0.8s ease-in-out;
+        }
+h4 {
+    text-align: center;
 }
-
-
-
-
-
-
-

@@ -7,10 +7,10 @@ li {
     list-style-type: none;
 }
 h1 {
-
     text-transform: uppercase;
     text-align: center;
-    padding-top: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
     font-size: 3em;
     background-size: 50%;
     }
@@ -56,11 +56,9 @@ header {
 
 header li a {
     text-align: right;
-    font-size: 1.2em;
+    font-size: 1.5em;
     display: block;
-    vertical-align: center;
-
-    padding: 18px 16px;
+    padding: 1px 20px;
 }
 #logo {
     background: url(media/Logo.jpg)no-repeat 50% 50%;
@@ -75,7 +73,7 @@ header li a {
 /* **************************IMAGE PRINCIPALE**************** */
 
 #imagePrincipale {
-    padding-top: 250px;
+    padding-top: 200px;
     background: url(media/Les\ Amazones.jpg) no-repeat fixed 50% 50%;
     background-size: 30%;
     height: 100%;
@@ -101,10 +99,14 @@ h2 {
     text-align: right;
     margin-right: 50px;
     font-size:340%;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
-/* **************Presentation*********** */
 
+/* **************Presentation*********** */
+h3 {
+    font-weight: bold;
+}
 #presentation {
     background-color: #FFFAE1;
     padding: 50px 0px 0px 100px;
@@ -118,16 +120,16 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
-    padding: 30px 10%;
+    padding: 10px 10%;
         }
 
 .imagesLesAmazones {
-    margin: 10vw;
+    margin: 1vw;
 }
 .imagesLesAmazones h4 {
     font-family: 'Dancing Script', cursive; 
     text-align: center;
-    font-size: 1.8em;
+    font-size: 1em;
     margin: 15px;
     font-weight: 300;
 }
